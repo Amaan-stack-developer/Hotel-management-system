@@ -43,6 +43,10 @@ header{
     transition: 0.2s;
     text-decoration: none;
 }
+.navbar #home{
+    background-color: rgb(184, 79, 9);
+    color: white;
+}
 .navbar a:hover{
     width: 20%;
     display: flex;
