@@ -46,6 +46,7 @@ header{
 .navbar #home{
     background-color: rgb(184, 79, 9);
     color: white;
+    border-right:1px solid white;
 }
 .navbar a:hover{
     width: 20%;
