@@ -143,135 +143,135 @@ header{
     background: transparent;
 }
 .card1{
-    background-image: url(/images/aalu-puri1.jpg);
+    background-image: url('images/aalu-puri1.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .card2{
-    background-image: url(/images/bhel-puri2.jpg);
+    background-image: url('images/bhel-puri2.jpg');
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .card3{
-    background-image: url(/images/burger3.jpg);
+    background-image: url('images/burger3.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .card4{
-    background-image: url(/images/chilli\ potato4.jpg);
+    background-image: url('images/chilli\ potato4.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .card5{
-    background-image: url(/images/chole-bhature5.jpg);
+    background-image: url('images/chole-bhature5.jpg');
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .card6{
-    background-image: url(/images/chole-kulche6.jpg);
+    background-image: url('images/chole-kulche6.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .card7{
-    background-image: url(/images/corn\ chaat7.jpg);
+    background-image: url('images/corn\ chaat7.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .card8{
-    background-image: url(/images/dosa8.jpg);
+    background-image: url('images/dosa8.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .card9{
-    background-image: url(/images/french-fries9.jpg);
+    background-image: url('images/french-fries9.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .card10{
-    background-image: url(/images/idli-sambhar10.jpg);
+    background-image: url('images/idli-sambhar10.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .card11{
-    background-image: url(/images/kadai-paneer11.jpg);
+    background-image: url('images/kadai-paneer11.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .card12{
-    background-image: url(/images/kari-pakoda12.jpg);
+    background-image: url('images/kari-pakoda12.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .card13{
-    background-image: url(/images/mesal-pav13.jpg);
+    background-image: url('images/mesal-pav13.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .card14{
-    background-image: url(/images/momos14.jpg);
+    background-image: url('images/momos14.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .card15{
-    background-image: url(/images/noodle15.jpg);
+    background-image: url('images/noodle15.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .card16{
-    background-image: url(/images/paneer-paratha16.jpg);
+    background-image: url('images/paneer-paratha16.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .card17{
-    background-image: url(/images/paneer-roll17.jpg);
+    background-image: url('images/paneer-roll17.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .card18{
-    background-image: url(/images/pani-puri18.jpg);
+    background-image: url('images/pani-puri18.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .card19{
-    background-image: url(/images/pasta19.jpg);
+    background-image: url('images/pasta19.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .card20{
-    background-image: url(/images/pav-bhaji20.jpg);
+    background-image: url('images/pav-bhaji20.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .card21{
-    background-image: url(/images/pizza21.jpg);
+    background-image: url('images/pizza21.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .card22{
-    background-image: url(/images/samosa22.jpg);
+    background-image: url('images/samosa22.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -280,13 +280,13 @@ header{
     color: white;
 }
 .card23{
-    background-image: url(/images/sandwitch23.jpg);
+    background-image: url('images/sandwitch23.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .card24{
-    background-image: url(/images/vada-pav24.jpg);
+    background-image: url('images/vada-pav24.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
