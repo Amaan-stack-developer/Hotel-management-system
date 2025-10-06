@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 65px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgb(209, 97, 22) 100%);
+}
+.logo{
+    width: 30%;
+    height: 55px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    color: rgb(0, 137, 216);
+    font-size: 25px;
+    font-weight: 800;
+    justify-content: center;
+}
+.navbar{
+    width: 50%;
+    height: 55px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+.navbar a{
+    width: 20%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.2s;
+    text-decoration: none;
+}
+.navbar a:hover{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(184, 79, 9);
+    text-decoration: none;
+}
+.section{
+    width: 100%;
+    height: auto;
+    background-color: rgb(240, 187, 152);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cards1, .cards2, .cards3, .cards4,
+.cards5, .cards6{
+    width: 98%;
+    margin-left: 1%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.card1, .card2, .card3, .card4,
+.card5, .card6, .card7, .card8,
+.card9, .card10, .card11, .card12,
+.card13, .card14, .card15, .card16,
+.card17, .card18, .card19, .card20,
+.card21, .card22, .card23, .card24{
+    width: 22%;
+    height: 170px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    float: left;
+    margin-left: 1%;
+    transition: 0.2s;
+    border: 1px solid rgb(184, 79, 9) ;
+}
+.card1:hover, .card2:hover, .card3:hover, .card4:hover,
+.card5:hover, .card6:hover, .card7:hover, .card8:hover,
+.card9:hover, .card10:hover, .card11:hover, .card12:hover,
+.card13:hover, .card14:hover, .card15:hover, .card16:hover,
+.card17:hover, .card18:hover, .card19:hover, .card20:hover,
+.card21:hover, .card22:hover, .card23:hover, .card24:hover{
+    transform: scale(1.01);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border: 1px solid rgb(209, 97, 22);
+    cursor: pointer;
+}
+
+.card1name,
+.card2name,
+.card3name,
+.card4name,
+.card5name,
+.card6name,
+.card7name,
+.card8name,
+.card9name,
+.card10name,
+.card11name,
+.card12name,
+.card13name,
+.card14name,
+.card15name,
+.card16name,
+.card17name,
+.card18name,
+.card19name,
+.card20name,
+.card21name,
+.card22name,
+.card23name,
+.card24name{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    width: 100%;
+    height: 30px;
+    margin-top: 140px;
+    border-radius: 5px;
+    /* background-color: green; */
+    background: transparent;
+}
+.card1{
+    background-image: url(/images/aalu-puri1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card2{
+    background-image: url(/images/bhel-puri2.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card3{
+    background-image: url(/images/burger3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card4{
+    background-image: url(/images/chilli\ potato4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card5{
+    background-image: url(/images/chole-bhature5.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card6{
+    background-image: url(/images/chole-kulche6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card7{
+    background-image: url(/images/corn\ chaat7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card8{
+    background-image: url(/images/dosa8.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card9{
+    background-image: url(/images/french-fries9.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card10{
+    background-image: url(/images/idli-sambhar10.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card11{
+    background-image: url(/images/kadai-paneer11.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card12{
+    background-image: url(/images/kari-pakoda12.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card13{
+    background-image: url(/images/mesal-pav13.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card14{
+    background-image: url(/images/momos14.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card15{
+    background-image: url(/images/noodle15.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card16{
+    background-image: url(/images/paneer-paratha16.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card17{
+    background-image: url(/images/paneer-roll17.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card18{
+    background-image: url(/images/pani-puri18.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card19{
+    background-image: url(/images/pasta19.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card20{
+    background-image: url(/images/pav-bhaji20.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card21{
+    background-image: url(/images/pizza21.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card22{
+    background-image: url(/images/samosa22.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card22name{
+    color: white;
+}
+.card23{
+    background-image: url(/images/sandwitch23.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card24{
+    background-image: url(/images/vada-pav24.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
